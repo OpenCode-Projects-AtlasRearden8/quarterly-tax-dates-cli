@@ -1,0 +1,84 @@
+{
+  "estimated_tax": {
+    "base_rules": {
+      "dates_md": {
+        "Q1": "04-15",
+        "Q2": "06-15",
+        "Q3": "09-15",
+        "Q4": "01-15"
+      },
+      "q4_year_offset": 1
+    },
+    "checklist": {
+      "every_quarter": [
+        "Last pay stub and any 1099s so far (wages, gig/1099 income, dividends, interest).",
+        "Receipts and confirmation numbers for any quarterly payments already made.",
+        "Last year's tax return, to sanity-check the 100%-of-last-tax safe-harbor amount (110% if your prior-year AGI was over $150,000).",
+        "Bank routing and account numbers if paying by IRS Direct Pay or EFTPS; sign up for EFTPS a week ahead."
+      ]
+    },
+    "covered_years": [
+      2023,
+      2031
+    ],
+    "official_dates": {
+      "2023": {
+        "Q1": "2023-04-18",
+        "Q2": "2023-06-15",
+        "Q3": "2023-09-15",
+        "Q4": "2024-01-16"
+      },
+      "2024": {
+        "Q1": "2024-04-15",
+        "Q2": "2024-06-17",
+        "Q3": "2024-09-16",
+        "Q4": "2025-01-15"
+      },
+      "2025": {
+        "Q1": "2025-04-15",
+        "Q2": "2025-06-16",
+        "Q3": "2025-09-15",
+        "Q4": "2026-01-15"
+      },
+      "2026": {
+        "Q1": "2026-04-15",
+        "Q2": "2026-06-15",
+        "Q3": "2026-09-15",
+        "Q4": "2027-01-15"
+      },
+      "2027": {
+        "Q1": "2027-04-15",
+        "Q2": "2027-06-15",
+        "Q3": "2027-09-15",
+        "Q4": "2028-01-18"
+      },
+      "2028": {
+        "Q1": "2028-04-18",
+        "Q2": "2028-06-15",
+        "Q3": "2028-09-15",
+        "Q4": "2029-01-16"
+      },
+      "2029": {
+        "Q1": "2029-04-17",
+        "Q2": "2029-06-15",
+        "Q3": "2029-09-17",
+        "Q4": "2030-01-15"
+      },
+      "2030": {
+        "Q1": "2030-04-15",
+        "Q2": "2030-06-17",
+        "Q3": "2030-09-16",
+        "Q4": "2031-01-15"
+      },
+      "2031": {
+        "Q1": "2031-04-15",
+        "Q2": "2031-06-16",
+        "Q3": "2031-09-15",
+        "Q4": "2032-01-15"
+      }
+    },
+    "shift_rules_note": "Sheet-shifting rules: a due date that lands on a Saturday, Sunday, or federal/DC holiday moves to the next business day. Notable cases: MLK Day can be Jan 15 (e.g. 2024), and DC Emancipation Day (April 16, observed on the next weekday if it falls on a weekend) can push April dates to the 17th or 18th (e.g. 2023 and 2028).",
+    "source_note": "Bundled offline schedule for US federal estimated tax (Form 1040-ES) installments. Based on the IRS general rule (April/June/September in year, January of the next year) with weekend/federal-holiday shifts, including DC Emancipation Day effects. Verify on IRS.gov before paying. No IRS API is used."
+  },
+  "schema_version": 1
+}
